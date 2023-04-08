@@ -6,5 +6,9 @@ public interface MemberPro {
 	public void view();
 	public void edit();
 	public void delete();
+	
+	public void save();
+	public void load();
+	
 	public void exit();
 }
